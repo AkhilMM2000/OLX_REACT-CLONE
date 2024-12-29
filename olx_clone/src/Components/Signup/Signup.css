@@ -1,0 +1,90 @@
+.signupParentDiv {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  max-width: 300px;  /* Reduced from 400px */
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signupParentDiv img {
+  display: block;
+  margin: 0 auto 1.5rem;  /* Reduced bottom margin */
+  width: 150px;  /* Adjusted logo size */
+  height: 150px;
+}
+
+.signupParentDiv form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signupParentDiv label {
+  font-size: 0.85rem;  /* Slightly smaller font */
+  color: #333;
+  margin-bottom: 0.2rem;  /* Reduced spacing */
+  font-weight: 500;
+}
+
+.input {
+  padding: 0.6rem;  /* Reduced padding */
+  margin-bottom: 0.8rem;  /* Reduced margin */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;  /* Slightly smaller font */
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+}
+
+.input:hover {
+  border-color: #999;
+}
+
+/* Remove number input arrows */
+.input[type="number"]::-webkit-inner-spin-button,
+.input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+button {
+  background-color: #0066cc;
+  color: white;
+  padding: 0.6rem;  /* Reduced padding */
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;  /* Slightly smaller font */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0.5rem;  /* Added small top margin */
+}
+
+button:hover {
+  background-color: #0052a3;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 0.8rem;  /* Reduced margin */
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 0.85rem;  /* Slightly smaller font */
+}
+
+a:hover {
+  text-decoration: underline;
+}
